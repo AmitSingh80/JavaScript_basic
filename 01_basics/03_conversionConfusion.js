@@ -38,3 +38,54 @@ let stringNumber=String(someNumber)
 // console.log(typeof stringNumber);
 
 
+//==========================operation=======================================
+
+let value =3
+let negValue=-value
+// console.log(negValue);
+
+//  console.log(2+2);
+//  console.log(3-2);
+//  console.log(2*2);
+//  console.log(2**3);
+//  console.log(3%2);
+//  console.log(3/3);
+
+
+let str1="hey"
+let str2=" buddies"
+let str3=str1+str2
+// console.log(str3);
+
+// console.log("2"+3);
+// console.log(2+"3");
+// console.log("2"+2+2);
+// console.log(2+2+"2");
+// console.log("8"-2);
+// console.log("2"-2-2);
+
+// console.log((2+2)*5/4); // better to do in bracket
+
+
+// console.log(+true);
+// console.log(+"");
+
+
+let num1,num2,num3
+num1=num2=num3=2+2
+
+// console.log(num1,num2,num3);
+
+
+let gameCounter=100
+// gameCounter++
+++gameCounter
+// console.log(gameCounter);
+
+//link to study
+// https://tc39.es/ecma262/multipage/abstract-operations.html#sec-type-conversion
+
+
+
+
+
