@@ -44,3 +44,10 @@ console.log(typeof scoree);
 console.log(typeof myFunction);
 console.log(typeof heros);
 console.log(typeof id);
+
+
+///++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+// Stack (primitive)  it create a copy ,  Heap ( Non primitive) it give refence value
+
+let myName=" amithey.com"
