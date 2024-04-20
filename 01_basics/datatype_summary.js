@@ -40,10 +40,10 @@ const myFunction=function(){
 
 
 // to find datatype easy way
-console.log(typeof scoree);
-console.log(typeof myFunction);
-console.log(typeof heros);
-console.log(typeof id);
+// console.log(typeof scoree);
+// console.log(typeof myFunction);
+// console.log(typeof heros);
+// console.log(typeof id);
 
 
 ///++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
@@ -51,3 +51,19 @@ console.log(typeof id);
 // Stack (primitive)  it create a copy ,  Heap ( Non primitive) it give refence value
 
 let myName=" amithey.com"
+let anotherName=myName
+anotherName="learnJavascript"
+
+console.log(myName);
+console.log(anotherName);
+
+let userOne={
+     email:"heyamit@gmail.com",
+     Upi:"amit@ybl"
+}
+
+let userTwo=userOne
+userTwo.email="hey@gmail.com"
+
+console.log(userOne);
+console.log(userTwo);
