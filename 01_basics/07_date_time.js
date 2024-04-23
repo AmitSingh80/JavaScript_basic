@@ -39,3 +39,5 @@ let newDate=new Date()
 console.log(newDate.toLocaleString('default',{
     weekday:"long"
 }));
+
+console.log("jey");
