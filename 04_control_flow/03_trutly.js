@@ -22,5 +22,23 @@ if(userEmail){
 
 const emptyObject ={}
 if(Object.keys(emptyObject).lenght==0){
-    console.log(" object is empty");
+    // console.log(" object is empty");
 }
+
+// nullish coaliescing Opertor (??): null undefine
+
+let val1;
+// val1 =5??10
+// val1 = null ?? 10
+// val1 = undefined ?? 6
+val1 =null ?? 10 ?? 15
+
+console.log(val1);
+
+
+//terniary opertor
+
+// condition ? true: false
+
+const price =100
+price >=90? console.log(" price is 80"): console.log(" more than 80");
