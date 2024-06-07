@@ -48,3 +48,17 @@ const balance =1000;
 // }else{
 //     console.log("less than 1200");
 // }
+
+const userLoggedIn =true
+const debitCard= true
+
+const userLoggedGoogle =false
+const userLoggedEmail =true
+
+if(userLoggedIn && debitCard){
+    console.log(" allow to buy");
+}
+
+if(userLoggedGoogle || userLoggedEmail){
+    console.log(" user logged in");
+}
