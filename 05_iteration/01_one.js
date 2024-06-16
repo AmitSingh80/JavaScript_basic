@@ -28,4 +28,13 @@ for (let index = 0; index < myArray.length; index++) {
     
 }
 
-//
+//break  and continue
+
+for (let index = 0; index <=10 ;index++) {
+    if (index==5) {
+        console.log(`detected ${index}`);
+        // break;
+        continue;
+    }
+    console.log(`value of index is ${index}`);
+}
