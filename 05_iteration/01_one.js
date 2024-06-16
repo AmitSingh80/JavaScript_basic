@@ -9,3 +9,23 @@ for (let i= 0; i <= 11; i++){
 
 }
 
+
+for (let i = 0; i <=10; i++) {
+        // console.log(`Outer loop values ${i}`);
+
+       for (let j = 0; j <=10 ;j++) {
+        //  console.log(`inner loop vaule ${j} and inner loop ${i}`);
+        
+       }
+    
+}
+
+let myArray =["flash","batman" ,"thor"]
+
+for (let index = 0; index < myArray.length; index++) {
+    const element = myArray[index];
+    // console.log(element);
+    
+}
+
+//
